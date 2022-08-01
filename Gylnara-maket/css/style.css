@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* == header start == */
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  color: #1d2830;
+}
+.navbar_1 {
+  left: 490px;
+  top: 64px;
+  font-family: "Inter";
+  color: #35414b;
+}
+.navbar_2 {
+  width: 60px;
+  height: 16px;
+  left: 647px;s
+  top: 64px;
+  font-family: "Inter";
+  color: #35414b;
+}
+
+/* === save start=== */
+.next {
+    display: flex;
+    justify-content: center;
+    margin-top: 108px;
+}
+.item_save {
+    border: none;
+    background-color: #81c43b;
+    color: white;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    position: relative;
+    margin-top: 10px;
+}
+.account_of {
+    border: none;
+    margin-left: -25px;
+}
+
+/* ==== save end==== */
+
+/*  ===== Manage start =======*/
+/* =========== Manage the team start ======= */
+h1 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #35414b;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 64px;
+  }
+  
+  p {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    color: #4e5a65;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    max-width: 1250px;
+    margin: 0 auto;
+    /* width: 375px; */
+  }
+  
+  #email {
+    font-family: "Inter";
+    margin-top: 24px;
+    width: 319px;
+    /* height: 19px;  */
+    padding: 18px 99px 18px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #97a5b5;
+  }
+  
+  #try {
+    border-radius: 4px 0px 0px 4px;
+    padding: 18px 45px 18px 45px;
+    margin-top: 20px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background: #794cff;
+  }
+/* ==== Manage end=== */
+
+/* === Overviw start === */
+.img_overviw {
+    margin-left: 180px;
+    margin-right: 180px;
+    width: 920px;
+    max-width: 1250px;
+    margin: 0 auto;
+    /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  }
+  .overviw {
+    height: 654px;
+  }
+  /* === Overviw end === */
+
+/* ==== TRUSTED start === */
+.best_teams {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.trusred_by {
+    margin-top: 100px;
+    margin-bottom: 29px;
+    width: 400px;
+  }
+.trusred {
+    font-weight: 400;
+  }
+  .number_style {
+    font-weight: 700;
+    font-style: bold;
+  }
+.container_logo {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+  }
+  
+/* ========TRUSTED end =====*/
+
+hr {
+    position: absolute;
+    width: 264px;
+    height: 4px;
+    left: 244px;
+    top: 3782px;
+    background: #35414B;
+}
+
+/* =======Footer========= */
+.container_footer {
+  background-color: #1d2830;
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 1505px;
+  height: 417px;
+  left: -33px;
+  top: 4282px;
+}
+.company {
+  list-style: none;
+}
+.footer_inner {
+  color: #ffffff;
+  display: flex;
+}

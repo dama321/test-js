@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header star */
+.container {
+  /* min-width: 1400px; */
+  margin: 30px 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+}
+#get {
+  border: none;
+  margin-left: 16px;
+  padding: 15px;
+  background: #ece6ff;
+  border-radius: 0px;
+  color: #794cff;
+  font-weight: 500;
+  margin-top: -48px;
+}
+.navbar div {
+  margin: 0 20px;
+}
+/* header end  */
+
+/* section-1 start */
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.setion save {
+  display: flex;
+  justify-content: center;
+  margin-top: 108px;
+}
+.save {
+  border: none;
+  background-color: #81c43b;
+  color: white;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  position: relative;
+  margin-top: 10px;
+}
+.account_of {
+  border: none;
+  margin-left: -25px;
+  background: #f2f9eb;
+  border-radius: 0px 100px 100px 0px;
+}
+.navbar a {
+  color: black;
+}
+.manage {
+  width: 600px;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 24px;
+}
+.paragraph-1 {
+  width: 450px;
+  text-align: center;
+  margin: 20px 0;
+  color: #4e5a65;
+  margin-top: 24px;
+  line-height: 24px;
+}
+/* section-1 end */
+
+#email {
+  font-family: "Inter";
+  margin-top: 24px;
+  width: 319px;
+  /* height: 19px;  */
+  padding: 18px 99px 18px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #97a5b5;
+}
+
+#try {
+  border-radius: 4px 0px 0px 4px;
+  padding: 18px 45px 18px 45px;
+  margin-top: 20px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  background: #794cff;
+}
+/* section-1 end */
+/* overview start */
+.overview {
+  display: flex;
+  justify-content: center;
+}
+/* overview end */
+
+/*  ============= Best teams start ============= */
+.best_teams {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trusred_by {
+  margin-top: 100px;
+  margin-bottom: 29px;
+  width: 400px;
+}
+.trusred {
+  font-weight: 400;
+}
+.number_style {
+  font-weight: 700;
+  font-style: bold;
+}
+
+.container_logo {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+/* =========== Timeline start ============== */
+.blocks-1 {
+  background-color: #fbfafe;
+  width: 100%;
+  margin: 100px auto;
+  padding: 56px 0;
+}
+
+.container__Timeline {
+  width: 1100px;
+  display: flex;
+  margin: 56px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container_right_Survey {
+  background-color: #f6f3fc;
+  align-items: flex-end;
+}
+h3 {
+  text-align: center;
+  /* margin-top: +100px; */
+  margin-bottom: 29px;
+  color: #35414b;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+}
+
+.container_right_Resolve {
+  display: inline-block;
+}
+/* ========Timeline end==========*/
+
+/* ===== Work easier start======== */
+.blocks-3 {
+  width: 1100px;
+  margin: 56px auto;
+}
+
+.container__work_easir {
+  margin: 0 auto;
+  width: 436px;
+  margin-bottom: 80px;
+}
+
+.make {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #35414b;
+}
+.main_info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+h3 {
+  color: #35414b;
+  left: 165px;
+  top: 2438px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+p {
+  color: #4e5a65;
+  width: 306px;
+  height: 48px;
+  left: 165px;
+  top: 2464px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* ========= Work easier end ======== */
+/* ===== Hous worked start==== */
+.blocks-4 {
+  width: 1100px;
+  margin: 56px auto;
+}
+.container__hous_worked {
+  display: flex;
+  margin-top: 250;
+  box-sizing: border-box;
+  background: #fbfafe;
+  border: 1px solid #f0ebfa;
+}
+h2 {
+  left: 165px;
+  top: 2986px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #35414b;
+}
+.since {
+  width: 413px;
+  height: 72px;
+  left: 165px;
+  top: 3106px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5a65;
+}
+.container__left_bottom {
+  border-radius: 4px;
+  width: 164px;
+  height: 52px;
+  background-color: blue;
+  border: none;
+  padding: 20px;
+  left: 165px;
+  top: 3210px;
+  color: #ffffff;
+  margin-top: 90px;
+}
+.container__right {
+  width: 597px;
+  height: 405px;
+  left: 668px;
+  top: 2921px;
+  background: url(Group 26.png);
+}
+/* ========== House worked end======== */
+
+/* ========== Why customers start========= */
+.blocks-5 {
+  display: flex;
+  flex-direction: column;
+}
+.container_customers h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: #35414b;
+}
+.container_customers p {
+  width: 543px;
+  height: 96px;
+  margin-left: 400px;
+  text-align: center;
+}
+.hr {
+  width: 264px;
+  color: #35414b;
+  left: 244px;
+  top: 3779px;
+}
+.developer {
+  display: flex;
+}
+.developer div a {
+  text-decoration: none;
+  justify-content: center;
+}
+/* === Why customers end === */
+
+/* === 84% employees start === */
+.container-employees {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #796eff;
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+.container-employees h2 {
+  color: #ffffff;
+  max-width: 423px;
+  font-size: 20px;
+}
+.container-employees img {
+  padding: 0 10px;
+}
+/* === 84% employees end === */
+
+/* =======Footer========= */
+footer {
+  background-color: #1d2830;
+  color: #ffffff;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+.footer-content div h4,
+.footer-content div ul li,
+.footer-content div img {
+  padding: 10px;
+}
+.all_rights {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.Install_App {
+  display: flex;
+  flex-direction: column;
+}
+/* Footer end */
